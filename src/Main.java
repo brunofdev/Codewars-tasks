@@ -1,6 +1,7 @@
 import ConvertStringToCamelCase.ConvertStringToCamelCase;
 import CountingDuplicates.CountingDuplicates;
 import SquareDigit.SquareDigit;
+import TakeAtenMinutesWalk.TakeTenMinutesWalk;
 import WhoLikesIt.Wholikeit;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ import static WhoLikesIt.Wholikeit.whoLikesIt;
 public class Main {
     public static void main(String[] args) {
 
-       System.out.println(ConvertStringToCamelCase.toCamelCase("Teste_De_Camel_Case"));
+
 
     }
 }
