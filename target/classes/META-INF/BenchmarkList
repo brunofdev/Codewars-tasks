@@ -1,0 +1,4 @@
+JMH S 31 vowel_count.VowelCountBenchmark S 62 vowel_count.jmh_generated.VowelCountBenchmark_solucao1_jmhTest S 8 solucao1 S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 31 vowel_count.VowelCountBenchmark S 62 vowel_count.jmh_generated.VowelCountBenchmark_solucao2_jmhTest S 8 solucao2 S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 31 vowel_count.VowelCountBenchmark S 62 vowel_count.jmh_generated.VowelCountBenchmark_solucao3_jmhTest S 8 solucao3 S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 31 vowel_count.VowelCountBenchmark S 62 vowel_count.jmh_generated.VowelCountBenchmark_solucao4_jmhTest S 8 solucao4 S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
