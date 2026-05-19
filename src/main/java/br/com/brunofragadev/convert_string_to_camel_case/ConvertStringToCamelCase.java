@@ -1,4 +1,4 @@
-package org.codewars.ConvertStringToCamelCase;
+package br.com.brunofragadev.convert_string_to_camel_case;
 
 public class ConvertStringToCamelCase {
         public static String toCamelCase(String s) {

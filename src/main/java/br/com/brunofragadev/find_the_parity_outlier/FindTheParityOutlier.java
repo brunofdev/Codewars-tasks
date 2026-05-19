@@ -1,4 +1,4 @@
-package org.codewars.FindTheParityOutlier;
+package br.com.brunofragadev.find_the_parity_outlier;
 
 import java.util.Arrays;
 

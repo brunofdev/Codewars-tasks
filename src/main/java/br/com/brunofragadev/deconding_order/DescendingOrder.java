@@ -1,4 +1,4 @@
-package org.codewars.DecondingOrder;
+package br.com.brunofragadev.deconding_order;
 
 import java.util.Arrays;
 import java.util.Collections;

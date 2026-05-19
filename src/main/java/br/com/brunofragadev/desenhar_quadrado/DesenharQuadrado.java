@@ -1,4 +1,4 @@
-package org.codewars.DenhenarQuadrado;
+package br.com.brunofragadev.desenhar_quadrado;
 
 public class DesenharQuadrado {
     public static void desenharQuadrado(int tamanho) {

@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Codewars-taskss" />
+        <module name="codewars-tasks" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Codewars-taskss" target="24" />
+    </bytecodeTargetLevel>
   </component>
 </project>

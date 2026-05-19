@@ -1,4 +1,4 @@
-package org.codewars.PangramCheck;
+package br.com.brunofragadev.pangram_check;
 
 /*
 TAREFA:

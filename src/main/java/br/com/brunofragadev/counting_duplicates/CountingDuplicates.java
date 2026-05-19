@@ -1,4 +1,4 @@
-package org.codewars.CountingDuplicates;
+package br.com.brunofragadev.counting_duplicates;
 
 import java.util.HashMap;
 import java.util.Map;

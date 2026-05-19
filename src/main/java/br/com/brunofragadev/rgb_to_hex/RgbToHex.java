@@ -1,4 +1,4 @@
-package org.codewars.RgbToHex;
+package br.com.brunofragadev.rgb_to_hex;
 
 
         /**

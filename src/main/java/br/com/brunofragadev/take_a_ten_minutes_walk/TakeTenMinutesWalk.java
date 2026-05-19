@@ -1,4 +1,4 @@
-package org.codewars.TakeAtenMinutesWalk;
+package br.com.brunofragadev.take_a_ten_minutes_walk;
 
 import java.util.HashMap;
 import java.util.Map;

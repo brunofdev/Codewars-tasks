@@ -1,4 +1,4 @@
-package org.codewars.SquareDigit;
+package br.com.brunofragadev.square_digit;
 
 import java.util.stream.Collectors;
 

@@ -1,4 +1,4 @@
-package org.codewars.WhoLikesIt;
+package br.com.brunofragadev.who_likes_it;
 
 public class Wholikeit {
 

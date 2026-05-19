@@ -1,4 +1,4 @@
-package org.codewars.vowel_count;
+package br.com.brunofragadev.vowel_count;
 
 import org.openjdk.jmh.annotations.*;
 
