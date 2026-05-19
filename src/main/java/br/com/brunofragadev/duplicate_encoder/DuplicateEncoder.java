@@ -2,9 +2,11 @@ package br.com.brunofragadev.duplicate_encoder;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class DuplicateEncoder {
 
+    //Minha solução
     public static String encode(String word){
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         String novaString = word.toLowerCase();
@@ -22,4 +24,22 @@ public class DuplicateEncoder {
         return sb.toString();
     }
 
+    //Outras pessoas do CodeWars
+    static String encode2(String word){
+        word = word.toLowerCase();
+        String result = "";
+        for (int i = 0; i < word.length(); ++i) {
+            char c = word.charAt(i);
+            result += word.lastIndexOf(c) == word.indexOf(c) ? "(" : ")";
+        }
+        return result;
+    }
+
+    public static String encode3(String word){
+        return word.toLowerCase()
+            .chars()
+            .mapToObj(i -> String.valueOf((char)i))
+            .map(i -> word.toLowerCase().indexOf(i) == word.toLowerCase().lastIndexOf(i) ? "(" : ")")
+            .collect(Collectors.joining());
+        }
 }
