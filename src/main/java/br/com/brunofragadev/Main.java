@@ -1,17 +1,14 @@
 package br.com.brunofragadev;
 
+import br.com.brunofragadev.queue_time.QueueTime;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+            int resultado = QueueTime.queue(new int[] { 2, 5, 3, 6, 4 }, 3);//resultado 20
+            int resultado2 = QueueTime.queue(new int[]{ 2, 5, 3, 6, 4 }, 0); //resultado 6
+            System.out.println("Resultado: " + resultado);
+            System.out.println("Resultado: " + resultado2);
         }
     }
-}
