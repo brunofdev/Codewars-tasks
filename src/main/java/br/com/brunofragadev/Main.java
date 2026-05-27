@@ -1,15 +1,23 @@
 package br.com.brunofragadev;
 
-import br.com.brunofragadev.convert_a_linked_list_to_a_string.ConvertALinkedListToAString;
-import br.com.brunofragadev.convert_a_linked_list_to_a_string.Nodee;
-import br.com.brunofragadev.queue_time.QueueTime;
+
+import br.com.brunofragadev.swap_node_pairs_in_linked_list.Nodeee;
+import br.com.brunofragadev.swap_node_pairs_in_linked_list.SwapNodePairsInLinkedList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-            Nodee list = new Nodee(1, new Nodee(2, new Nodee(3)));
-        System.out.println(ConvertALinkedListToAString.stringify(list));
-        System.out.println(ConvertALinkedListToAString.stringify(null));
-        }
+        Nodeee a = new Nodeee("A");
+        Nodeee b = new Nodeee("B");
+        Nodeee c = new Nodeee("C");
+        Nodeee d = new Nodeee("D");
+
+        a.next = b;
+        b.next = c;
+        c.next = d;
+
+        Nodeee result = SwapNodePairsInLinkedList.swapPairs(a);
+        System.out.println(result.printList());
+    }
     }
