@@ -1,29 +1,36 @@
 package br.com.brunofragadev;
 
-import br.com.brunofragadev.leetcode_right_side_view.LeetSideView;
-import br.com.brunofragadev.leetcode_right_side_view.TreeNode;
-
+import br.com.brunofragadev.estudos_organizador_livros_com_tree.EstanteOrganizadora;
 
 
 public class Main {
     public static void main(String[] args) {
-        LeetSideView solution = new LeetSideView();
+        EstanteOrganizadora estante = new EstanteOrganizadora();
 
-        // Exemplo 1: [1,2,3,null,5,null,4] → esperado: [1,3,4]
-        TreeNode root1 = new TreeNode(1,
-                new TreeNode(2, null, new TreeNode(5)),
-                new TreeNode(3, null, new TreeNode(4))
-        );
-        System.out.println(solution.rightSideView(root1));
+        // Gêneros
+        estante.inserirGenereo("Ficcao");
+        estante.inserirGenereo("Terror");
+        estante.inserirGenereo("Aventura");
+        estante.inserirGenereo("Biografia");
 
-        // Exemplo 2: [1,2,3,4,null,null,null,5] → esperado: [1,3,4,5]
-        TreeNode root2 = new TreeNode(1,
-                new TreeNode(2, new TreeNode(4, new TreeNode(5), null), null),
-                new TreeNode(3)
-        );
-        System.out.println(solution.rightSideView(root2));
+        // Autores
+        estante.inserirAutor("Ficcao", "Asimov");
+        estante.inserirAutor("Ficcao", "Philip Dick");
+        estante.inserirAutor("Terror", "King");
+        estante.inserirAutor("Terror", "Lovecraft");
+        estante.inserirAutor("Aventura", "Verne");
+        estante.inserirAutor("Biografia", "Churchill");
 
-        // Exemplo 3: árvore vazia → esperado: []
-        System.out.println(solution.rightSideView(null));
+        // Livros
+        estante.inserirLivro("Ficcao", "Asimov", "Fundacao");
+        estante.inserirLivro("Ficcao", "Asimov", "Eu Robo");
+        estante.inserirLivro("Ficcao", "Philip Dick", "Androides Sonham");
+        estante.inserirLivro("Terror", "King", "It");
+        estante.inserirLivro("Terror", "King", "Iluminado");
+        estante.inserirLivro("Terror", "Lovecraft", "Cthulhu");
+        estante.inserirLivro("Aventura", "Verne", "Volta ao Mundo");
+        estante.inserirLivro("Biografia", "Churchill", "A Segunda Guerra");
+
+        estante.exibirEstante();
     }
 }
